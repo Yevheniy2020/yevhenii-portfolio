@@ -63,7 +63,7 @@ const WavesShader = () => {
                 for (let x = 0; x < width; x += distance) {
                     for (let z = 0; z < depth; z += distance) {
                         position.push(-width / 2 + x, -30, -depth / 2 + z);
-                        color.push(0, 1 - (x / width) * 1, 0.5 + x / width * 0.5, z / depth);
+                        color.push(1, 1, 1, z / depth);
                     }
                 }
 
@@ -77,7 +77,7 @@ const WavesShader = () => {
     }, []);
 
     return (
-        <div className="particles" ref={particlesRef} style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0 }} />
+        <div className="particles" ref={particlesRef} style={{ position: 'absolute', left: 0, top: 0, right: 0, bottom: 0, zIndex: -10 }} />
     );
 };
 

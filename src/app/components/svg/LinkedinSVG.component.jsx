@@ -5,6 +5,7 @@ const LinkedinSVGComponent = (props) => (
         width={25}
         height={25}
         fill="none"
+        style={{borderRadius: '4px'}}
         {...props}
     >
         <g clipPath="url(#a)">

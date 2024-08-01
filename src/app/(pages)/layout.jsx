@@ -1,26 +1,14 @@
 'use client';
-import React, { ReactNode, useEffect, useState } from 'react';
+import React, { useState } from 'react';
+import Spinner from "@/app/components/ui/Spinner.component";
 
 const Loading = ({ children }) => {
     const [isLoading, setIsLoading] = useState(true);
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 2000);
-    }, []);
-
-    if (isLoading) {
-        return <Spinner />;
-    }
 
     return (
-        <div>
-            <Header />
-            <div className="flex justify-center">
-                <div className="w-360	">{children}</div>
-            </div>
-            <Footer />
-        </div>
+        <>
+            {isLoading ? <Spinner setIsLoading={setIsLoading}/> : children}
+        </>
     );
 };
 
