@@ -21,7 +21,7 @@ const Mobile = ({work}) => {
                     <div className=' max-w-[1056px] w-full max-h-[630px] h-full relative rounded-[10px]' >
                         <Image className='rounded-[10px] max-w-[1056px] w-full max-h-[630px] h-full object-contain relative z-10' src={work.path_image} width={1056} height={630} alt={work.alt}/>
                         <span className='w-[260px] h-[260px] rounded-full bg-gold absolute bottom-[45%] left-[65%] z-1'/>
-                        <span className='w-full h-full bg-black absolute top-0 opacity-[60%] rounded-[10px] z-20'/>
+                        <span className='w-full h-full bg-black absolute top-0 opacity-[40%] rounded-[10px] z-20'/>
                     </div>
                 </div>
             </Link>
