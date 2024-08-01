@@ -9,7 +9,7 @@ import dynamic from "next/dynamic";
 const MAIN_PATH_IMAGE = '/image/work';
 
 const works = [
-    {path_image: `${MAIN_PATH_IMAGE}/ficeadvisor.jpg`, alt: 'Image of Student Portal (FA)', name: 'FICEADVISER', stack: 'next.js / zustand /mui / storybook / sass', desc: 'Student Portal', path_site: "https://ficeadvisor.com/"},
+    {path_image: `${MAIN_PATH_IMAGE}/ficeadvisor.jpg`, alt: 'Image of Student Portal (FA)', name: 'FICEADVISOR', stack: 'next.js / zustand /mui / storybook / sass', desc: 'Student Portal', path_site: "https://ficeadvisor.com/"},
     {path_image: `${MAIN_PATH_IMAGE}/ufn.jpg`, alt: 'Image of Ukrainian Freedom News', name: 'UFN', stack: 'next.js app route / strapi / sass', desc: 'Ukrainian Freedom News', path_site: "https://ufn-frontend-next-psi.vercel.app/" },
     {path_image: `${MAIN_PATH_IMAGE}/cmo.jpg`, alt: 'Image of Center for International Education (CIE)' , name: 'CMO', stack: 'next.js app route /mui / sass', desc: ' Center for International Education (CIE)', path_site: 'https://cmo.fictadvisor.com/en'},
 ]
