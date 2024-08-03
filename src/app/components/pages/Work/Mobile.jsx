@@ -8,13 +8,13 @@ const Mobile = ({work}) => {
             <Link href={work.path_site} >
                 <div className='flex justify-center flex-col p-[20px]'>
                     <div className=' text-white pb-[34px] resize z-10'>
-                        <div className='font-fira italic text-xl  pb-[20px]	 font-semibold	text-shadow-custom'>
+                        <div className='font-fira italic text-xl  pb-[20px]	 font-semibold'>
                             {work.desc}
                         </div>
-                        <div className='font-fira text-6xl italic font-semibold pb-[24px]	text-shadow-custom'>
+                        <div className='font-fira text-6xl italic font-semibold pb-[24px]'>
                             {work.name}
                         </div>
-                        <div className='font-fira italic text-xl font-semibold text-shadow-custom'>
+                        <div className='font-fira italic text-xl font-semibold'>
                             {work.stack}
                         </div>
                     </div>

@@ -13,7 +13,7 @@ import gsap from "gsap";
 const About = () => {
 
     useGSAP(() => {
-        gsap.to('#david_model', { opacity: 1, delay: 1.2, x:0 });
+        gsap.to('#david_model', { opacity: 1, delay: 0.7, x:0 });
     }, []);
 
     return (

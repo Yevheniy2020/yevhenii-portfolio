@@ -7,7 +7,8 @@ const Loading = ({ children }) => {
 
     return (
         <>
-            {isLoading ? <Spinner setIsLoading={setIsLoading}/> : children}
+            {/*{isLoading ? <Spinner setIsLoading={setIsLoading}/> : children}*/}
+            {children}
         </>
     );
 };

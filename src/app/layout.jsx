@@ -1,5 +1,9 @@
 import { Inter, Fira_Sans_Extra_Condensed, Montserrat } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
+
+
+const measurementId = "G-LPC7G8EQ4B";
 
 const fira = Fira_Sans_Extra_Condensed({
   subsets: ['latin'],
@@ -28,6 +32,15 @@ export default function RootLayout({ children }) {
       <body   className={`
         ${fira.variable}
         ${montserrat.variable}`}>{children}</body>
+      <Script strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}/>
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${measurementId}');
+                `}
+      </Script>
     </html>
   );
 }

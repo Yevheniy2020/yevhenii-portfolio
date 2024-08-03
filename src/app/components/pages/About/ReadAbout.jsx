@@ -6,10 +6,10 @@ import gsap from "gsap";
 const ReadAbout = () => {
     const [isOpen, setIsOpen] = useState(false);
     useGSAP(() => {
-        gsap.to('#read_title', { opacity: 1, duration: 0.5 });
+        gsap.to('#read_title', { opacity: 1, duration: 0.2 });
         gsap.to('#read_line', { opacity: 1, duration: 1, maxWidth: 320 });
-        gsap.to('#read_text',  {opacity: 1, y:0 ,delay: 1});
-        gsap.to('#read_button',  {opacity: 1, y:0 ,delay: 1.4});
+        gsap.to('#read_text',  {opacity: 1, y:0 ,delay: 0.5});
+        gsap.to('#read_button',  {opacity: 1, y:0 ,delay: 0.7});
 
     }, []);
 
