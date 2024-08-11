@@ -34,12 +34,12 @@ function Home() {
         <div className='w-screen h-screen relative'>
             {isClient && <PlaneEffect/>}
             <div className='absolute top-0' >
-                <MenuComponent/>
+                <MenuComponent withAnimation={true}/>
             </div>
             <div className='absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
                 <div className='flex flex-col items-center justify-center font-montserrat gap-[10px]'>
-                    <div id='full_name' className='text-5xl font-normal text-white text-nowrap sm:text-3xl opacity-0 translate-y-[-50px]' style={width < 576 ? mobileStyles : {}}>Yevhenii Mynenko</div>
-                    <div id='work_position' className='text-3xl text-gold font-normal sm:text-2xl opacity-0 translate-y-[50px]'>Front-end Developer</div>
+                    <div id='full_name' className='text-5xl font-light text-white text-nowrap sm:text-3xl opacity-0 translate-y-[-50px]' style={width < 576 ? mobileStyles : {}}>Yevhenii Mynenko</div>
+                    <div id='work_position' className='text-3xl text-gold font-medium sm:text-2xl opacity-0 translate-y-[50px]'>Front-end Developer</div>
                 </div>
             </div>
             <div id='arrow_bottom' className={`absolute ${width > 576 ? "bottom-[5%]" : 'bottom-[10%]'} left-[50%] translate-y-[-50px] translate-x-[-50%] z-50`}>

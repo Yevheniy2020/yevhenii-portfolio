@@ -27,10 +27,14 @@ module.exports = {
         'shaders': '#E6E2E2',
         'gold': '#FFB800',
         'input': '#D9D9D9',
+        'opacity-block': 'rgba(255,255,255,0.1)',
       },
       fontFamily: {
         fira: 'var(--font-fira)',
         montserrat: 'var(--font-montserrat)',
+      },
+      height: {
+        blog: 'calc(100vh - 60px)'
       },
       keyframes: {
         'move-twink-back': {
