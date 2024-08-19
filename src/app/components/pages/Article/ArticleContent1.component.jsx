@@ -32,10 +32,10 @@ const ArticleContent1Component = () => {
                     </div>
                     <div className='pt-[12px]'>Intrinsic size: 2160 x 390 px</div>
                     <div className='pt-[32px] sm:pt-[18px]'>
-                        In the two examples we can see the difference in resolution of our SVG, how can this affect SEO?
+                        In the two examples we can see the difference in resolution of our SVG. How can this affect SEO?
                     </div>
                     <div className='pt-[24px] sm:pt-[12px]'>
-                        Unfortunately, in the second example we can get a rather bad result. The point is that the search robot is very sensitive to media resources, in this example to images. It will first go through the pictures, determining their priority, it uses indicators such as relevance, resolution of the picture and how it is optimized. Now let&lsquo;s go back to our 2nd example and see that there&lsquo;s an SVG of a good format that can, firstly, be read by the search engine robot, secondly, be read as the main picture.
+                        Unfortunately, in the second example we can get a rather bad result. The point is that the search robot is very sensitive to media resources, in this example to images. It will first go through the pictures, determining their priority, it uses indicators such as relevance, resolution of the picture and how it is optimized. Now let‘s go back to our 2nd example and see that there‘s an SVG of a high resolution that can, firstly, be read by the search engine robot, secondly, be read as the main picture.
                     </div>
                     <div className='pt-[24px] sm:pt-[12px]'>
                         Here&lsquo;s what google says about it
@@ -49,7 +49,7 @@ const ArticleContent1Component = () => {
                     </div>
                     <div className='pt-[24px] sm:pt-[12px]'>
                         <div>
-                            Also, if we open a very popular validator site and select any site that has alt problems, we will see these SVGs that are parsed perfectly by google. As I described above, this is not safe or just not the right approach.
+                            Also, when we open a very popular validator site and select any site that has alt problems, we will see these SVGs that are parsed perfectly by Google. As I described above, this is not safe or just not the right approach.
                         </div>
                         <br/>
                         <a className='underline' href="https://validator.w3.org/">https://validator.w3.org/</a>
@@ -58,17 +58,17 @@ const ArticleContent1Component = () => {
                         <Image src="/image/blog/articles/seo-svg-img/validator.jpg" width={680} height={380} alt='rozetka shop img logo' className='max-w-[680px] w-full object-cover'/>
                     </div>
                     <div className='pt-[24px] font-semibold text-2xl sm:text-[14px] sm:pt-[12px]'>How can we solve this problem?</div>
-                    <div className='pt-[18px] sm:pt-[14px]'>The solution to this problem is very simple and varied.  We need to make our search robot not find our tag img with SVG, how can we do it?</div>
+                    <div className='pt-[18px] sm:pt-[14px]'>The are some simple solutions to this problem. We have to hide our tag img with SVG. How can we do it?</div>
                     <div className='pt-[32px] sm:pt-[18px] text-gold'>Background Image</div>
                     <div className='pt-[12px]'>
                         <Image src="/image/blog/articles/seo-svg-img/carbon_1.jpg" width={680} height={380} alt='rozetka shop img logo' className='max-w-[680px] w-full  object-cover'/>
                     </div>
-                    <div className='pt-[12px]'>This is a very easy method to insert a proper svg because the background-image tag is not indexed by robots</div>
+                    <div className='pt-[12px]'>Here is a very easy method -  insert a proper svg because the background-image tag is not indexed by Google robots.</div>
                     <div className='pt-[32px] sm:pt-[18px] text-gold'>Pseudo-elements</div>
                     <div className='pt-[12px]'>
                         <Image src="/image/blog/articles/seo-svg-img/carbon_2.jpg" width={680} height={380} alt='rozetka shop img logo' className='max-w-[680px] w-full  object-cover'/>
                     </div>
-                    <div className='pt-[12px]'>A very quick and easy way to get the desired results. Here also google robots will not index our SVGs</div>
+                    <div className='pt-[12px]'>A very quick and easy way to get the desired results. Here also google robots will not index our SVGs.</div>
                     <div className='pt-[32px] font-semibold text-2xl sm:text-[14px] sm:pt-[18px]'>Conclusion</div>
                     <div className='pt-[18px] sm:pt-[14px]'>The problem described by me is unpopular and very unpleasant for medium and large sites. However, it is solved quite easily and quickly and moreover gives a boost to your site. I did not describe the solution to this problem, as suggested by Google - through robots file, because, I am deeply convinced that this is a very bad way or what they call - &lsquo;crutch&lsquo;. However, you should always consider this option. Thank you for your attention!</div>
                 </div>
