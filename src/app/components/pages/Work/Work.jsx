@@ -10,6 +10,14 @@ const MAIN_PATH_IMAGE = "/image/work";
 
 const works = [
   {
+    path_image: `${MAIN_PATH_IMAGE}/cityOfMist.png`,
+    alt: "City of Mist",
+    name: "City of Mist",
+    stack: "shopify / apps",
+    desc: "Shop for Board Games",
+    path_site: "https://cityofmist.co/",
+  },
+  {
     path_image: `${MAIN_PATH_IMAGE}/ficeadvisor.jpg`,
     alt: "Image of Student Portal (FA)",
     name: "FICEADVISOR",
@@ -41,14 +49,14 @@ const works = [
     desc: " Shop",
     path_site: "https://enovixauto.com/",
   },
-  {
-    path_image: `${MAIN_PATH_IMAGE}/ufn.jpg`,
-    alt: "Image of Ukrainian Freedom News",
-    name: "UFN (frozen)",
-    stack: "next.js app route / strapi / sass",
-    desc: "Ukrainian Freedom News",
-    path_site: "https://ufn-frontend-next-psi.vercel.app/",
-  },
+  // {
+  //   path_image: `${MAIN_PATH_IMAGE}/ufn.jpg`,
+  //   alt: "Image of Ukrainian Freedom News",
+  //   name: "UFN (frozen)",
+  //   stack: "next.js app route / strapi / sass",
+  //   desc: "Ukrainian Freedom News",
+  //   path_site: "https://ufn-frontend-next-psi.vercel.app/",
+  // },
 ];
 
 const LazyMobile = dynamic(() => import("./Mobile"), { ssr: false });
