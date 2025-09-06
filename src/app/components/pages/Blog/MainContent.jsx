@@ -32,7 +32,7 @@ const MainContent = () => {
             <div className='absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]'>
                 <div className='flex flex-col items-center justify-center font-montserrat gap-[10px]'>
                     <div id='blog' className='text-5xl font-light text-white text-nowrap sm:text-3xl'>My Blog</div>
-                    <span id='work_position' className='text-3xl text-gold font-medium sm:text-2xl text-nowrap' style={width < 576 ? mobileStyles : {}}>Front-end Developer</span>
+                    <span id='work_position' className='text-3xl text-gold font-medium sm:text-2xl text-nowrap' style={width < 576 ? mobileStyles : {}}>Shopify Developer</span>
                 </div>
             </div>
             <div id='arrow_bottom' className={`absolute ${width > 576 ? "bottom-[5%]" : 'bottom-[0]'} left-[50%] translate-y-[-50px] translate-x-[-50%] z-50`}>

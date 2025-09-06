@@ -29,9 +29,9 @@ const ReadAbout = () => {
         className="text-white opacity-0 translate-y-[20px] font-montserrat font-normal text-lg mt-[18px] xsm:text-sm xsm:text-left"
       >
         <p>
-          Hello! I’m Yevhenii Mynenko, a dedicated Front-end Developer rooted in
+          Hello! I’m Yevhenii Mynenko, a dedicated Shopify Developer rooted in
           Chernihiv/Kyiv, Ukraine. With a rich foundation in technology,
-          enhanced by over 2 years of professional experience, I specialize in
+          enhanced by nearly 3 years of professional experience, I specialize in
           crafting user-friendly web applications using a dynamic tech stack
           that includes React, Next.js, Node.js, MUI, SASS, and Tailwind.
         </p>
