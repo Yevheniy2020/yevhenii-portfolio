@@ -26,14 +26,6 @@ const works = [
     path_site: "https://ficeadvisor.com/",
   },
   {
-    path_image: `${MAIN_PATH_IMAGE}/cmo.jpg`,
-    alt: "Image of Center for International Education (CIE)",
-    name: "CMO",
-    stack: "next.js app route / mui / sass",
-    desc: " Center for International Education (CIE)",
-    path_site: "https://istudent.kpi.ua/en",
-  },
-  {
     path_image: `${MAIN_PATH_IMAGE}/sleepshop.png`,
     alt: "Image of Sleep Shop",
     name: "SleepShop",
@@ -49,14 +41,22 @@ const works = [
     desc: " Shop",
     path_site: "https://enovixauto.com/",
   },
-  // {
-  //   path_image: `${MAIN_PATH_IMAGE}/ufn.jpg`,
-  //   alt: "Image of Ukrainian Freedom News",
-  //   name: "UFN (frozen)",
-  //   stack: "next.js app route / strapi / sass",
-  //   desc: "Ukrainian Freedom News",
-  //   path_site: "https://ufn-frontend-next-psi.vercel.app/",
-  // },
+  {
+    path_image: `${MAIN_PATH_IMAGE}/love-letters.jpg`,
+    alt: "Image of Love Letters",
+    name: "Love Letters",
+    stack: "shopify / apps",
+    desc: " Shop",
+    path_site: "https://loveletters-online.com/",
+  },
+  {
+    path_image: `${MAIN_PATH_IMAGE}/mifold.png`,
+    alt: "Image of Mifold",
+    name: "Mifold",
+    stack: "shopify / apps",
+    desc: " Shop",
+    path_site: "https://mifold.com/",
+  },
 ];
 
 const LazyMobile = dynamic(() => import("./Mobile"), { ssr: false });
